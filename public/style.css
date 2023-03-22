@@ -1,7 +1,46 @@
-.container-fluid {
+
+.main-photo{
     background: url("images/3.jpeg") no-repeat;
     background-size: cover;
 
+}
+.second {
+    padding-bottom: 50px;
+}
 
+/* работа с текстом */
 
+.about{
+    padding-top: 600px;
+    padding-bottom: 400px;
+
+}
+.c-name{
+    margin-bottom: 0px;
+
+    font-size: 40px;
+    color: #f7fafc;
+    font-weight: 900;
+}
+.name {
+    font-size: 70px;
+    color: #f7fafc;
+
+    font-weight: 900;
+}
+.a-name {
+    color: #f7fafc;
+    font-weight: 400;
+}
+.head-about-me {
+    font-weight: 700;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 70px;
+}
+.about-me{
+
+}
+.photo {
+    float: right;
 }
