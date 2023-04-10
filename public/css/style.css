@@ -5,6 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
 
+
+
+
 body {
     font-family: 'Cormorant Infant', serif;
 }
@@ -35,15 +38,15 @@ body {
 /* работа с текстом */
 
 .nav-word {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 800;
 
 }
 
 
 .about {
-    padding-top: 600px;
-    padding-bottom: 400px;
+    padding-top: 500px;
+    padding-bottom: 200px;
 
 }
 
@@ -109,6 +112,7 @@ body {
     padding-bottom: 300px;
 }
 .p-orders {
+    text-shadow: black 2px 0 10px;
     font-weight: 400;
     color: #f7fafc;
     font-size: 28px;
@@ -140,17 +144,31 @@ footer {
 
 }
 .text-center {
+    padding-top: 40px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 40px;
 }
 
 .footer-phone {
-    text-align: center;
-    padding-top: 50px;
-}
-.fa-4x {
     color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 28px;
+}
+.footer-phone:hover{
+    color: #718096;
+}
+.fa-3x {
+    color: black;
+}
+.icon-center{
+    text-align: center!important;
+}
+
+.no-gutters {
+    margin-left: 0;
+    margin-right: 0;
 }
 .footer-icon1:hover {
     color: red;
@@ -164,3 +182,37 @@ footer {
 .footer-icon4:hover {
     color: forestgreen;
 }
+@media (min-width: 576px) {
+
+    .head-about-me {
+        text-align: center;
+        font-size: 34px;
+    }
+    .second {
+        padding-top: 20px;
+    }
+    .text-about {
+        text-align: justify;
+        padding-top: 40px;
+        font-size: 16px;
+    }
+    .logo {
+        height: 240px;
+        width: 240px;
+    }
+
+    .photo {
+        display: inline-block;
+        text-align: center;
+        float: none;
+    }
+}
+
+
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) {  }

@@ -68,7 +68,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                <button type="button" class="btn btn-primary">Записаться</button>
+                <button type="button" class="btn btn-outline-success">Записаться</button>
             </div>
         </div>
     </div>
@@ -88,7 +88,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                <button type="button" class="btn btn-primary">Записаться</button>
+                <button type="button" class="btn btn-outline-success">Записаться</button>
             </div>
         </div>
     </div>
@@ -107,10 +107,10 @@
             </div>
             <div class="col-sm">
                 <a class="navbar-brand nav-link active" href="#">
-                    <img src="fonts/2.png" alt="Bootstrap" width="350" height="340">
+                    <img src="fonts/2.png" class="logo" alt="Bootstrap" width="350" height="340">
                 </a>
             </div>
-            <div class="col-sm">
+            <div class="col-sm col-photo">
                 <img src="images/2.jpg" class="photo" width="300px" height="300px" alt="">
             </div>
         </div>
@@ -122,7 +122,7 @@
 <div class="container-fluid orders-fluid">
     <div class="container orders">
         <div class="row row-cols-4">
-            <div class="col div-orders">
+            <div class="col  div-orders">
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <img class="icon" src="images/1.jpg" width="120px" height="120px" alt="">
                     <p class="p-orders">Бланширование или бланчтерапия</p>
@@ -493,15 +493,15 @@
         <div class="row footer-row">
             <div class="col">
                <h1 class="text-center">Контакты</h1>
-                <div class="row">
-                    <div class="col"><a href=""><i class="fa fa-instagram fa-4x footer-icon1" aria-hidden="true"></i></a></div>
-                    <div class="col"><a href=""><i class="fa fa-paper-plane fa-4x footer-icon2" aria-hidden="true"></i></a></div>
-                    <div class="col"><a href=""><i class="fa fa-vk fa-4x footer-icon3" aria-hidden="true"></i></a></div>
-                    <div class="col"><a href=""><i class="fa fa-whatsapp fa-4x footer-icon4" aria-hidden="true"></i></a></div>
+                <div class="row no-gutters">
+                    <div class="col icon-center"><a href="https://www.instagram.com/dr.tarasovaa/"><i class="fa fa-instagram fa-3x footer-icon1" aria-hidden="true"></i></a></div>
+                    <div class="col icon-center"><a href="https://t.me/kate_tarasovaa"><i class="fa fa-paper-plane fa-3x footer-icon2" aria-hidden="true"></i></a></div>
+                    <div class="col icon-center"><a href="https://vk.com/kate_tarasovaa"><i class="fa fa-vk fa-3x footer-icon3" aria-hidden="true"></i></a></div>
+                    <div class="col icon-center"><a href=" https://wa.me/+79889686699"><i class="fa fa-whatsapp fa-3x footer-icon4" aria-hidden="true"></i></a></div>
                 </div>
                 <div class="row">
-                    <div class="col footer-phone">
-                        <h1><b>+79889686699</b></h1>
+                    <div class="col text-center">
+                        <a href="tel:79889686699" class="footer-phone">+79889686699</a>
                     </div>
                 </div>
             </div>
