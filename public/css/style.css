@@ -28,10 +28,7 @@ body {
     padding-bottom: 180px;
     padding-top: 80px;
 }
-.text-about {
-    padding-top: 20px;
-    font-size: 24px;
-}
+
 .p-btn {
     font-size: 24px;
 }
@@ -81,7 +78,15 @@ body {
 .about-me {
 
 }
+.text-about {
+    text-align: left;
+    padding-top: 90px;
+    font-size: 24px;
+}
+.brand {
+    padding-left: 20px;
 
+}
 .photo {
     float: right;
     border-radius: 90px;
@@ -94,6 +99,8 @@ body {
 /* Блок с Услугами */
 
 .icon {
+    width: 120px;
+    height: 120px;
     border-radius: 80px;
     border: 4px solid white;
     transition: 0.5s;
@@ -182,7 +189,7 @@ footer {
 .footer-icon4:hover {
     color: forestgreen;
 }
-@media (min-width: 576px) {
+@media screen and (max-width: 576px) {
 
     .head-about-me {
         text-align: center;
@@ -206,13 +213,51 @@ footer {
         text-align: center;
         float: none;
     }
+    .orders {
+        padding-left: 0px;
+    }
+    .icon {
+        width: 100px;
+        height: 100px;
+    }
+    .p-orders {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .head-about-me {
+        font-size: 34px;
+    }
+    .second {
+        padding-top: 20px;
+    }
+    .text-about {
+        text-align: justify;
+        font-size: 18px;
+        padding-top: 40px;
+    }
+    .photo {
+        display: inline-block;
+        text-align: center;
+        float: none;
+    }
+    .orders {
+        padding-left: 0px;
+    }
+    .icon {
+        width: 100px;
+        height: 100px;
+    }
+    .p-orders {
+        font-size: 22px;
+    }
+
 }
 
+@media (max-width: 992px) {
 
-@media (min-width: 768px) {  }
 
-
-@media (min-width: 992px) {  }
+}
 
 
 @media (min-width: 1200px) {  }

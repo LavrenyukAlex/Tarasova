@@ -17,6 +17,9 @@
             <a class="navbar-brand" href="#">
                 <img src="/fonts/3.jpg" alt="Bootstrap" width="55" height="50">
             </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
@@ -105,13 +108,13 @@
                         люблю кошечек и собачек и вообще я очень добрая, но
                         люблю колоть людей, именно поэтому я Ваш будущий косметолог!</b></p>
             </div>
-            <div class="col-sm">
+            <div class="col-sm brand">
                 <a class="navbar-brand nav-link active" href="#">
-                    <img src="fonts/2.png" class="logo" alt="Bootstrap" width="350" height="340">
+                    <img src="fonts/2.png" class="logo" alt="Bootstrap" width="450" height="440">
                 </a>
             </div>
             <div class="col-sm col-photo">
-                <img src="images/2.jpg" class="photo" width="300px" height="300px" alt="">
+                <img src="images/2.jpg" class="photo" width="300px" height="350px" alt="">
             </div>
         </div>
     </div>
@@ -122,51 +125,51 @@
 <div class="container-fluid orders-fluid">
     <div class="container orders">
         <div class="row row-cols-4">
-            <div class="col  div-orders">
+            <div class="col-sm-6 div-orders">
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    <img class="icon" src="images/1.jpg" width="120px" height="120px" alt="">
+                    <img class="icon" src="images/1.jpg" alt="">
                     <p class="p-orders">Бланширование или бланчтерапия</p>
                 </button>
             </div>
-            <div class="col div-orders">
+            <div class="col-sm-6 div-orders">
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#2">
-                    <img class="icon" src="images/5.jpg" width="120px" height="120px" alt="">
+                    <img class="icon" src="images/5.jpg"  alt="">
                     <p class="p-orders">Липолитики</p>
                 </button>
             </div>
-            <div class="col div-orders">
+            <div class="col-sm-6 div-orders">
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#3">
-                    <img class="icon" src="images/6.jpg" width="120px" height="120px" alt="">
+                    <img class="icon" src="images/6.jpg"  alt="">
                     <p class="p-orders">Отбеливание зубов</p>
                 </button>
             </div>
-            <div class="col div-orders">
+            <div class="col-sm-6 div-orders">
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#piling">
-                    <img class="icon" src="images/7.jpg" width="120px" height="120px" alt="">
+                    <img class="icon" src="images/7.jpg"  alt="">
                     <p class="p-orders">Пилинг</p>
                 </button>
             </div>
-            <div class="col div-orders">
+            <div class="col-sm-6 div-orders">
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mezoniti">
-                    <img class="icon" src="images/8.jpg" width="120px" height="120px" alt="">
+                    <img class="icon" src="images/8.jpg" alt="">
                     <p class="p-orders">Тредлифтинг/Мезонити</p>
                 </button>
             </div>
-            <div class="col div-orders">
+            <div class="col-6 div-orders">
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#4">
-                    <img class="icon" src="images/9.jpg" width="120px" height="120px" alt="">
+                    <img class="icon" src="images/9.jpg" alt="">
                     <p class="p-orders">Радиесс</p>
                 </button>
             </div>
-            <div class="col div-orders">
+            <div class="col-sm-6 div-orders">
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#5">
-                    <img class="icon" src="images/4.png" width="120px" height="120px" alt="">
+                    <img class="icon" src="images/4.png"  alt="">
                     <p class="p-orders">Контурная пластика</p>
                 </button>
             </div>
-            <div class="col div-orders">
+            <div class="col-sm-6 div-orders">
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#6">
-                    <img class="icon" src="images/10.jpg" width="120px" height="120px" alt="">
+                    <img class="icon" src="images/10.jpg"  alt="">
                     <p class="p-orders">Ботулинотерапия</p>
                 </button>
             </div>
@@ -480,11 +483,22 @@
     <h1 class="text-center">Отзывы</h1>
     <hr>
     <div class="owl-carousel owl-theme">
-        <div> <img src="/images/14.jpg" class="d-block w-100" alt="..."> </div>
+        <div> <img src="/images/12.jpg" class="d-block w-100" alt="..."> </div>
+        <div>  <img src="/images/13.jpg" class="d-block w-100" alt="...">  </div>
         <div>  <img src="/images/14.jpg" class="d-block w-100" alt="...">  </div>
-        <div>  <img src="/images/14.jpg" class="d-block w-100" alt="...">  </div>
-        <div> <img src="/images/14.jpg" class="d-block w-100" alt="..."> </div>
-        <div> <img src="/images/14.jpg" class="d-block w-100" alt="..."> </div>
+        <div> <img src="/images/20.jpg" class="d-block w-100" alt="..."> </div>
+        <div> <img src="/images/21.jpg" class="d-block w-100" alt="..."> </div>
+        <div> <img src="/images/22.jpg" class="d-block w-100" alt="..."> </div>
+        <div> <img src="/images/23.jpg" class="d-block w-100" alt="..."> </div>
+        <div> <img src="/images/24.jpg" class="d-block w-100" alt="..."> </div>
+        <div> <img src="/images/25.jpg" class="d-block w-100" alt="..."> </div>
+        <div> <img src="/images/26.jpg" class="d-block w-100" alt="..."> </div>
+        <div> <img src="/images/27.jpg" class="d-block w-100" alt="..."> </div>
+        <div> <img src="/images/28.jpg" class="d-block w-100" alt="..."> </div>
+        <div> <img src="/images/29.jpg" class="d-block w-100" alt="..."> </div>
+        <div> <img src="/images/30.jpg" class="d-block w-100" alt="..."> </div>
+        <div> <img src="/images/31.jpg" class="d-block w-100" alt="..."> </div>
+        <div> <img src="/images/31.jpg" class="d-block w-100" alt="..."> </div>
     </div>
 </div>
 
