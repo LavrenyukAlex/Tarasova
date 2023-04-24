@@ -1,4 +1,12 @@
 $(document).ready(function(){
+    $(".owl-price").owlCarousel({
+        items: 1,
+
+    });
+});
+
+
+$(document).ready(function(){
     $(".owl-carousel").owlCarousel({
         items: 2,
         margin: 150,

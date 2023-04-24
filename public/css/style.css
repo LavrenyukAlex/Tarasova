@@ -213,6 +213,12 @@ footer {
         text-align: center;
         float: none;
     }
+    .brand {
+        text-align: center;
+    }
+    .col-photo {
+        text-align: center;
+    }
     .orders {
         padding-left: 0px;
     }
@@ -225,6 +231,7 @@ footer {
     }
 }
 @media screen and (max-width: 768px) {
+
     .head-about-me {
         font-size: 34px;
     }
@@ -234,7 +241,10 @@ footer {
     .text-about {
         text-align: justify;
         font-size: 18px;
-        padding-top: 40px;
+        padding-top: 90px;
+    }
+    .col-photo {
+        text-align: center;
     }
     .photo {
         display: inline-block;
@@ -255,7 +265,9 @@ footer {
 }
 
 @media (max-width: 992px) {
-
+    .col-photo {
+        text-align: center;
+    }
 
 }
 
