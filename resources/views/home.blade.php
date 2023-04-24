@@ -118,7 +118,7 @@
                     </a>
                 </div>
                 <div class="col-sm col-md-8 col-xl col-photo">
-                    <img src="images/2.jpg" class="photo" width="300px" height="350px" alt="">
+                    <img src="images/2.jpg" class="photo" width="280px" height="380px" alt="">
                 </div>
             </div>
         </div>
@@ -506,7 +506,7 @@
             <div> <img src="/images/29.jpg" class="d-block w-100" alt="..."> </div>
             <div> <img src="/images/30.jpg" class="d-block w-100" alt="..."> </div>
             <div> <img src="/images/31.jpg" class="d-block w-100" alt="..."> </div>
-            <div> <img src="/images/31.jpg" class="d-block w-100" alt="..."> </div>
+            <div> <img src="/images/35.jpg" class="d-block w-100" alt="..."> </div>
         </div>
     </div>
 </article>
