@@ -20,6 +20,9 @@ body {
     background-size: cover;
 
 }
+.phone-icon {
+    padding-right: 10px;
+}
 .phone {
     text-align: center;
     text-decoration: none;
@@ -42,7 +45,7 @@ body {
 
 
 .about {
-    padding-top: 410px;
+    padding-top: 430px;
     padding-bottom: 200px;
 
 }
@@ -57,7 +60,6 @@ body {
 .name {
     font-size: 70px;
     color: #2d3748;
-    /*font-family: 'Cormorant SC', serif;*/
     font-weight: 900;
 }
 
@@ -113,11 +115,10 @@ body {
     background: url("../images/34.jpg") center no-repeat transparent;
 }
 .orders {
-    padding-top: 250px;
-    padding-bottom: 200px;
+    padding-top: 220px;
+    padding-bottom: 220px;
 }
 .p-orders {
-    text-shadow: black 2px 0 10px;
     font-weight: 400;
     color: #f7fafc;
     font-size: 28px;
@@ -189,6 +190,30 @@ footer {
 }
 @media screen and (max-width: 576px) {
 
+    .main-photo {
+        background: url("../images/37.jpg") no-repeat center transparent;
+        background-size: cover;
+
+    }
+    .c-name {
+        margin-bottom: 0px;
+        font-size: 20px;
+        color: #2d3748;
+        font-weight: 900;
+    }
+
+    .name {
+        font-size: 40px;
+        color: #2d3748;
+        font-weight: 900;
+    }
+
+    .a-name {
+        color: #2d3748;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
     .head-about-me {
         text-align: center;
         font-size: 34px;
@@ -225,7 +250,7 @@ footer {
         height: 100px;
     }
     .p-orders {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -257,7 +282,7 @@ footer {
         height: 100px;
     }
     .p-orders {
-        font-size: 22px;
+        font-size: 18px;
     }
 
 }

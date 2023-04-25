@@ -35,7 +35,7 @@
                         <a href="#contacts" class="nav-link nav-word"><b>Контакты</b></a>
                     </li>
                 </ul>
-                <a href="tel:79889686699" class="navbar-text phone nav-word"><i class="fa fa-phone" aria-hidden="true"></i><b>+79889686699</b></a>
+                <a href="tel:79889686699" class="navbar-text phone nav-word"><i class="fa fa-phone phone-icon" aria-hidden="true"></i><b>+79889686699</b></a>
             </div>
         </div>
     </nav>
@@ -47,7 +47,7 @@
         <p class="name"> Екатерина Тарасова <br></p>
         <p class="a-name">Со мной Вы заново влюбитесь в свое <br> отражение в зеркале</p>
         <button type="button" class="btn btn btn-success p-btn" data-bs-toggle="modal" data-bs-target="#zapis">Записаться на прием</button>
-        <button type="button" class="btn btn-outline-light p-btn" data-bs-toggle="modal" data-bs-target="#price">Прайс</button>
+        <button type="button" class="btn btn-outline-dark p-btn" data-bs-toggle="modal" data-bs-target="#price">Прайс</button>
     </div>
 </div>
 <div class="modal fade" id="zapis" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -118,7 +118,7 @@
                     </a>
                 </div>
                 <div class="col-sm col-md-8 col-xl col-photo">
-                    <img src="images/2.jpg" class="photo" width="280px" height="380px" alt="">
+                    <img src="images/2.jpg" class="photo" width="260px" height="380px" alt="">
                 </div>
             </div>
         </div>
