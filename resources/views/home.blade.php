@@ -17,7 +17,8 @@
             <a class="navbar-brand" href="#">
                 <img src="/fonts/3.jpg" alt="Bootstrap" width="55" height="50">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -35,7 +36,8 @@
                         <a href="#contacts" class="nav-link nav-word"><b>Контакты</b></a>
                     </li>
                 </ul>
-                <a href="tel:79889686699" class="navbar-text phone nav-word"><i class="fa fa-phone phone-icon" aria-hidden="true"></i><b>+79889686699</b></a>
+                <a href="tel:79889686699" class="navbar-text phone nav-word"><i class="fa fa-phone phone-icon"
+                                                                                aria-hidden="true"></i><b>+79889686699</b></a>
             </div>
         </div>
     </nav>
@@ -46,8 +48,11 @@
         <p class="c-name">Косметолог <br></p>
         <p class="name"> Екатерина Тарасова <br></p>
         <p class="a-name">Со мной Вы заново влюбитесь в свое <br> отражение в зеркале</p>
-        <button type="button" class="btn btn btn-success p-btn" data-bs-toggle="modal" data-bs-target="#zapis">Записаться на прием</button>
-        <button type="button" class="btn btn-outline-dark p-btn" data-bs-toggle="modal" data-bs-target="#price">Прайс</button>
+        <button type="button" class="btn btn btn-success p-btn" data-bs-toggle="modal" data-bs-target="#zapis">
+            Записаться на прием
+        </button>
+        <button type="button" class="btn btn-outline-dark p-btn" data-bs-toggle="modal" data-bs-target="#price">Прайс
+        </button>
     </div>
 </div>
 <div class="modal fade" id="zapis" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -86,10 +91,10 @@
             <div class="modal-body">
                 <div class="container">
                     <div class="owl-price owl-carousel owl-theme">
-                        <div><img src="/images/17.jpg"  alt="..."></div>
-                        <div><img src="/images/18.jpg"  alt="..."></div>
-                        <div><img src="/images/19.jpg"  alt="..."></div>
-                        <div><img src="/images/20.jpg"  alt="..."></div>
+                        <div><img src="/images/17.jpg" alt="..."></div>
+                        <div><img src="/images/18.jpg" alt="..."></div>
+                        <div><img src="/images/19.jpg" alt="..."></div>
+                        <div><img src="/images/20.jpg" alt="..."></div>
                     </div>
                 </div>
             </div>
@@ -139,19 +144,19 @@
                 </div>
                 <div class="col-6 col-sm-6 col-md-6 col-xl-3 div-orders">
                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#2">
-                        <img class="icon" src="images/5.jpg"  alt="">
+                        <img class="icon" src="images/5.jpg" alt="">
                         <p class="p-orders">Липолитики</p>
                     </button>
                 </div>
                 <div class="col-6 col-sm-6 col-md-6 col-xl-3 div-orders">
                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#3">
-                        <img class="icon" src="images/6.jpg"  alt="">
+                        <img class="icon" src="images/6.jpg" alt="">
                         <p class="p-orders">Отбеливание зубов</p>
                     </button>
                 </div>
                 <div class="col-6 col-sm-6 col-md-6 col-xl-3 div-orders">
                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#piling">
-                        <img class="icon" src="images/7.jpg"  alt="">
+                        <img class="icon" src="images/7.jpg" alt="">
                         <p class="p-orders">Пилинг</p>
                     </button>
                 </div>
@@ -169,13 +174,13 @@
                 </div>
                 <div class="col-6 col-sm-6 col-md-6 col-xl-3 div-orders">
                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#5">
-                        <img class="icon" src="images/4.png"  alt="">
+                        <img class="icon" src="images/4.png" alt="">
                         <p class="p-orders">Контурная пластика</p>
                     </button>
                 </div>
                 <div class="col-6 col-sm-6 col-md-6 col-xl-3 div-orders">
                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#6">
-                        <img class="icon" src="images/10.jpg"  alt="">
+                        <img class="icon" src="images/10.jpg" alt="">
                         <p class="p-orders">Ботулинотерапия</p>
                     </button>
                 </div>
@@ -312,7 +317,8 @@
                         <p><b>Что это такое?</b></p>
                         <p>
                             <li><b>Мезонити - эффектваная безоперационная методика омоложения лица с помощью
-                                    специальных армирующих нитей. Они формируют четкий каркас и поддерживают ткани человека
+                                    специальных армирующих нитей. Они формируют четкий каркас и поддерживают ткани
+                                    человека
                                     в нужном
                                     положении. Нитевая подтяжка - метод, который отлично справляется с птозом.</b>
                         <hr>
@@ -348,8 +354,10 @@
                         <hr>
                         <p>
                         <li><b>
-                                Пилинг (от анг. «peeling» — отшелушивание, отслаивание) — это процедура удаления ороговевших
-                                частиц верхнего слоя кожи, которая стимулирует рост новых клеток, непосредственно влияет на
+                                Пилинг (от анг. «peeling» — отшелушивание, отслаивание) — это процедура удаления
+                                ороговевших
+                                частиц верхнего слоя кожи, которая стимулирует рост новых клеток, непосредственно влияет
+                                на
                                 улучшение структуры кожи и повышение её эластичности.</b>
                         </li>
                         </p>
@@ -492,21 +500,21 @@
         <h1 class="text-center">Отзывы</h1>
         <hr>
         <div class="owl-carousel owl-theme">
-            <div> <img src="/images/12.jpg" class="d-block w-100" alt="..."> </div>
-            <div>  <img src="/images/13.jpg" class="d-block w-100" alt="...">  </div>
-            <div>  <img src="/images/14.jpg" class="d-block w-100" alt="...">  </div>
-            <div> <img src="/images/21.jpg" class="d-block w-100" alt="..."> </div>
-            <div> <img src="/images/22.jpg" class="d-block w-100" alt="..."> </div>
-            <div> <img src="/images/23.jpg" class="d-block w-100" alt="..."> </div>
-            <div> <img src="/images/24.jpg" class="d-block w-100" alt="..."> </div>
-            <div> <img src="/images/25.jpg" class="d-block w-100" alt="..."> </div>
-            <div> <img src="/images/26.jpg" class="d-block w-100" alt="..."> </div>
-            <div> <img src="/images/27.jpg" class="d-block w-100" alt="..."> </div>
-            <div> <img src="/images/28.jpg" class="d-block w-100" alt="..."> </div>
-            <div> <img src="/images/29.jpg" class="d-block w-100" alt="..."> </div>
-            <div> <img src="/images/30.jpg" class="d-block w-100" alt="..."> </div>
-            <div> <img src="/images/31.jpg" class="d-block w-100" alt="..."> </div>
-            <div> <img src="/images/35.jpg" class="d-block w-100" alt="..."> </div>
+            <div><img src="/images/12.jpg" class="d-block w-100" alt="..."></div>
+            <div><img src="/images/13.jpg" class="d-block w-100" alt="..."></div>
+            <div><img src="/images/14.jpg" class="d-block w-100" alt="..."></div>
+            <div><img src="/images/21.jpg" class="d-block w-100" alt="..."></div>
+            <div><img src="/images/22.jpg" class="d-block w-100" alt="..."></div>
+            <div><img src="/images/23.jpg" class="d-block w-100" alt="..."></div>
+            <div><img src="/images/24.jpg" class="d-block w-100" alt="..."></div>
+            <div><img src="/images/25.jpg" class="d-block w-100" alt="..."></div>
+            <div><img src="/images/26.jpg" class="d-block w-100" alt="..."></div>
+            <div><img src="/images/27.jpg" class="d-block w-100" alt="..."></div>
+            <div><img src="/images/28.jpg" class="d-block w-100" alt="..."></div>
+            <div><img src="/images/29.jpg" class="d-block w-100" alt="..."></div>
+            <div><img src="/images/30.jpg" class="d-block w-100" alt="..."></div>
+            <div><img src="/images/31.jpg" class="d-block w-100" alt="..."></div>
+            <div><img src="/images/35.jpg" class="d-block w-100" alt="..."></div>
         </div>
     </div>
 </article>
@@ -518,10 +526,14 @@
                 <div class="col">
                     <h1 class="text-center">Контакты</h1>
                     <div class="row no-gutters">
-                        <div class="col icon-center"><a href="https://www.instagram.com/dr.tarasovaa/"><i class="fa fa-instagram fa-3x footer-icon1" aria-hidden="true"></i></a></div>
-                        <div class="col icon-center"><a href="https://t.me/kate_tarasovaa"><i class="fa fa-paper-plane fa-3x footer-icon2" aria-hidden="true"></i></a></div>
-                        <div class="col icon-center"><a href="https://vk.com/kate_tarasovaa"><i class="fa fa-vk fa-3x footer-icon3" aria-hidden="true"></i></a></div>
-                        <div class="col icon-center"><a href=" https://wa.me/+79889686699"><i class="fa fa-whatsapp fa-3x footer-icon4" aria-hidden="true"></i></a></div>
+                        <div class="col icon-center"><a href="https://www.instagram.com/dr.tarasovaa/"><i
+                                    class="fa fa-instagram fa-3x footer-icon1" aria-hidden="true"></i></a></div>
+                        <div class="col icon-center"><a href="https://t.me/kate_tarasovaa"><i
+                                    class="fa fa-paper-plane fa-3x footer-icon2" aria-hidden="true"></i></a></div>
+                        <div class="col icon-center"><a href="https://vk.com/kate_tarasovaa"><i
+                                    class="fa fa-vk fa-3x footer-icon3" aria-hidden="true"></i></a></div>
+                        <div class="col icon-center"><a href=" https://wa.me/+79889686699"><i
+                                    class="fa fa-whatsapp fa-3x footer-icon4" aria-hidden="true"></i></a></div>
                     </div>
                     <div class="row">
                         <div class="col text-center">
@@ -530,7 +542,8 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-5 cart">
-                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0a950030e2a880e59989bd541754141709b985743a03854f6c596dac77c2c9a8&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>
+                    <script type="text/javascript" charset="utf-8" async
+                            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0a950030e2a880e59989bd541754141709b985743a03854f6c596dac77c2c9a8&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>
                 </div>
             </div>
         </div>
