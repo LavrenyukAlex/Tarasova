@@ -37,6 +37,10 @@ body {
 }
 /* работа с текстом */
 
+.text {
+    font-size: 12px;
+}
+
 .nav-word {
     font-size: 20px;
     font-weight: 800;

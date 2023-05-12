@@ -1,4 +1,4 @@
-FROM php:8.1-fpm-alpine3.16
+FROM 8.1.18-zts-alpine3.18
 
 RUN apt-get update && apt-get install -y \
       apt-utils \
