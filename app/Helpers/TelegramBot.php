@@ -20,7 +20,9 @@ class TelegramBot
     {
         try {
             $telegram = new Api(env('TELEGRAM_BOT_TOKEN'));
+            $telegram->deleteWebhook();
             $response = $telegram->getUpdates();
+
 
             dd($response);
         } catch (TelegramSDKException $e) {

@@ -19,3 +19,4 @@ $router->get('/test', function () use ($router) {
 
     \App\Helpers\TelegramBot::getUpdates();
 });
+
