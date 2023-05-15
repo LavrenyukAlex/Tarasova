@@ -9,4 +9,9 @@ class HomeController extends Controller
     public function index(){
         return view('home');
     }
+
+    public function order(){
+
+        \App\Helpers\TelegramBot::send(env('TELEGRAM_CHAT_ID'), $_POST['name']);
+    }
 }

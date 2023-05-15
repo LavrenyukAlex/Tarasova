@@ -15,8 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'HomeController@index');
 
-$router->get('/test', function () use ($router) {
-
-    \App\Helpers\TelegramBot::getUpdates();
-});
-
+Route::post('/order', 'HomeController@order');

@@ -63,21 +63,23 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
             </div>
             <div class="modal-body">
-                <form>
+                <form action="/order" method="post">
+                    @csrf
                     <div class="mb-3">
                         <label for="recipient-name" class="col-form-label"><b>Ваше Имя:</b></label>
-                        <input type="text" class="form-control" id="recipient-name">
+                        <input type="text" class="form-control" id="recipient-name" name="name">
                     </div>
                     <div class="mb-3">
                         <label for="message-text" class="col-form-label"><b>Ваш телефон:</b></label>
-                        <input type="text" class="form-control" id="recipient-name">
+                        <input type="text" class="form-control" id="recipient-name" name="phone">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                        <button type="submit" class="btn btn-outline-success">Записаться</button>
                     </div>
                 </form>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                <button type="button" class="btn btn-outline-success">Записаться</button>
-            </div>
+
         </div>
     </div>
 </div>
