@@ -13,5 +13,8 @@ class HomeController extends Controller
     public function order(){
 
         \App\Helpers\TelegramBot::send(env('TELEGRAM_CHAT_ID'), $_POST['name']);
+
+
+
     }
 }
