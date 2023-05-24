@@ -16,7 +16,7 @@ body {
     border-bottom: 1px solid black;
 }
 .main-photo {
-    background: url("../images/36.jpg") no-repeat center transparent;
+    background: url("../images/38.JPG") no-repeat center transparent;
     background-size: cover;
 
 }
@@ -84,9 +84,9 @@ body {
 
 }
 .text-about {
-    text-align: left;
+    text-align: center;
     padding-top: 90px;
-    font-size: 24px;
+    font-size: 16px;
 }
 .brand {
     padding-left: 20px;
@@ -192,12 +192,27 @@ footer {
 .footer-icon4:hover {
     color: forestgreen;
 }
+.success-order {
+    padding-top: 400px;
+    text-align: center;
+}
+.success-text {
+    font-size: 42px;
+}
+.success-icon {
+    color: green;
+    text-align: center;
+}
 @media screen and (max-width: 576px) {
 
     .main-photo {
         background: url("../images/37.jpg") no-repeat center transparent;
         background-size: cover;
 
+    }
+    .about {
+        padding-top: 300px;
+        padding-bottom: 350px;
     }
     .c-name {
         margin-bottom: 0px;
@@ -255,6 +270,13 @@ footer {
     }
     .p-orders {
         font-size: 18px;
+    }
+    .success-order {
+        text-align: center;
+        padding-top: 300px;
+    }
+    .success-text {
+        font-size: 24px;
     }
 }
 @media screen and (max-width: 768px) {

@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'HomeController@index');
 
 Route::post('/order', 'HomeController@order');
+
+Route::get('/order', 'HomeController@back');
