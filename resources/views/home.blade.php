@@ -231,7 +231,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                        <button type="button" class="btn btn-outline-success">Записаться</button>
+                        <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#zapis">Записаться</button>
                     </div>
                 </div>
             </div>
@@ -277,7 +277,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                        <button type="button" class="btn btn-outline-success">Записаться</button>
+                        <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#zapis">Записаться</button>
                     </div>
                 </div>
             </div>
@@ -293,7 +293,7 @@
                         <p><b>Что это такое?</b></p>
                         <hr>
                         <p>
-                        <li><b></b>
+                        <li><b>Процедура изменения оттенка зубной эмали.</b>
                         </li>
                         </p>
                         <p><b>Кому это подходит?</b></p>
@@ -313,7 +313,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                        <button type="button" class="btn btn-outline-success">Записаться</button>
+                        <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#zapis">Записаться</button>
                     </div>
                 </div>
             </div>
@@ -353,7 +353,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                        <button type="button" class="btn btn-outline-success">Записаться</button>
+                        <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#zapis">Записаться</button>
                     </div>
                 </div>
             </div>
@@ -391,7 +391,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                        <button type="button" class="btn btn-outline-success">Записаться</button>
+                        <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#zapis">Записаться</button>
                     </div>
                 </div>
             </div>
@@ -429,7 +429,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                    <button type="button" class="btn btn-outline-success">Записаться</button>
+                    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#zapis">Записаться</button>
                 </div>
             </div>
         </div>
@@ -465,7 +465,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                    <button type="button" class="btn btn-outline-success">Записаться</button>
+                    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#zapis">Записаться</button>
                 </div>
             </div>
         </div>
@@ -502,7 +502,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                    <button type="button" class="btn btn-outline-success">Записаться</button>
+                    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#zapis">Записаться</button>
                 </div>
             </div>
         </div>

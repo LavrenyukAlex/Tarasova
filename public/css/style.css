@@ -16,7 +16,7 @@ body {
     border-bottom: 1px solid black;
 }
 .main-photo {
-    background: url("../images/38.JPG") no-repeat center transparent;
+    background: url("../images/38.webp") no-repeat center transparent;
     background-size: cover;
 
 }
@@ -116,7 +116,7 @@ body {
 }
 
 .orders-fluid {
-    background: url("../images/34.jpg") center no-repeat transparent;
+    background: url("../images/34.webp") center no-repeat transparent;
 }
 .orders {
     padding-top: 220px;
@@ -206,7 +206,7 @@ footer {
 @media screen and (max-width: 576px) {
 
     .main-photo {
-        background: url("../images/37.jpg") no-repeat center transparent;
+        background: url("../images/37.webp") no-repeat center transparent;
         background-size: cover;
 
     }
