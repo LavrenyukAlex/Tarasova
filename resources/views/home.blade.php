@@ -555,6 +555,7 @@
                     <div class="row">
                         <div class="col text-center">
                             <a href="tel:79889686699" class="footer-phone">+79889686699</a>
+                            <p>г. Севастополь, ул. Дмитрия Ульянова 1А</p>
                         </div>
                     </div>
                 </div>
